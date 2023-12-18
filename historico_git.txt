@@ -1,0 +1,17 @@
+commit 420336a83d36855b971064601582331d0c0eb98a
+Author: LeoCPSyahoo <leonardocsantos@usp.br>
+Date:   Tue Dec 19 00:33:12 2023 +0300
+
+    Adicionando arquivo .py da Câmera
+
+commit 063832085db15124c615782e8b0856d9c54540f9
+Author: LeoCPSyahoo <leonardocsantos@usp.br>
+Date:   Tue Dec 19 00:30:26 2023 +0300
+
+    Adicionando arquivo .py da TAG
+
+commit 3474209be40b363f8c7ae618444fc93d3f92049a
+Author: LeoCPSyahoo <116130972+LeoCPSyahoo@users.noreply.github.com>
+Date:   Tue Dec 19 03:28:07 2023 +0300
+
+    Initial commit
