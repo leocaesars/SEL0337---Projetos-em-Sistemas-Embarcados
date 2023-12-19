@@ -13,6 +13,9 @@ Para facilitar a comunicação, foi habilitada a interface SPI nas configuraçõ
 
 Parte 2: Câmera
 O código implementa um sistema de detecção facial que captura imagens quando rostos são identificados. O LED é utilizado para fornecer feedback visual durante a detecção.
+
+https://github.com/LeoCPSyahoo/SEL0337/assets/116130972/f2b8e95a-d7e9-4120-96e7-161f034e2fe7
+
 Configurações Iniciais e Importações:
 -Importa as bibliotecas necessárias, como OpenCV para processamento de imagens, os módulos necessários da Raspberry Pi para a câmera (picamera2), e a biblioteca LED do GPIO.
 -Inicializa um objeto LED associado ao pino GPIO 26.
