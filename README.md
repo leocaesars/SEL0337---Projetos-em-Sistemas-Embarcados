@@ -9,3 +9,6 @@ Para facilitar a comunicação, foi habilitada a interface SPI nas configuraçõ
 
 ![20231127_152752](https://github.com/LeoCPSyahoo/SEL0337/assets/116130972/1f3f52dc-3195-4389-b9d6-ec174e2e30e4)
 
+![Photo from Leonardo](https://github.com/LeoCPSyahoo/SEL0337/assets/116130972/159a9391-ea9e-4676-a3aa-4f3956e0fa19)
+
+
