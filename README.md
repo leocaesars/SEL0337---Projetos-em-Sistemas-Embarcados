@@ -18,6 +18,8 @@ O código implementa um sistema de detecção facial que captura imagens quando 
 
 https://github.com/LeoCPSyahoo/SEL0337/assets/116130972/f2b8e95a-d7e9-4120-96e7-161f034e2fe7
 
+![Foto](https://github.com/LeoCPSyahoo/SEL0337/assets/116130972/9ba2867d-b905-49bc-b9c5-fab13bbdc4c1)
+
 Configurações Iniciais e Importações:
 
 -Importa as bibliotecas necessárias, como OpenCV para processamento de imagens, os módulos necessários da Raspberry Pi para a câmera (picamera2), e a biblioteca LED do GPIO.
