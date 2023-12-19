@@ -11,4 +11,32 @@ Para facilitar a comunicação, foi habilitada a interface SPI nas configuraçõ
 
 ![Photo from Leonardo](https://github.com/LeoCPSyahoo/SEL0337/assets/116130972/159a9391-ea9e-4676-a3aa-4f3956e0fa19)
 
+Parte 2: Câmera
+O código implementa um sistema de detecção facial que captura imagens quando rostos são identificados. O LED é utilizado para fornecer feedback visual durante a detecção.
+Configurações Iniciais e Importações:
+-Importa as bibliotecas necessárias, como OpenCV para processamento de imagens, os módulos necessários da Raspberry Pi para a câmera (picamera2), e a biblioteca LED do GPIO.
+-Inicializa um objeto LED associado ao pino GPIO 26.
+Carregamento do Classificador Haar Cascade:
+-Carrega o classificador Haar Cascade treinado para detecção facial. Esse classificador é utilizado para identificar rostos em uma imagem.
+-Configuração da Câmera da Raspberry Pi:
+-Inicializa a câmera da Raspberry Pi (Picamera2).
+-Configura a câmera para criar uma visualização com formato de representação de cores 32 bits “XRGB8888” e resolução de 640x480 pixels.
+Loop Principal para Detecção Facial:
+-Inicia um loop infinito para captura e detecção de rostos.
+-Captura um quadro da câmera.
+-Converte a imagem colorida para escala de cinza para facilitar a detecção facial.
+Detecção de Rostos:
+-Utiliza o classificador Haar Cascade para detectar rostos na imagem em escala de cinza.
+-Quando um rosto é detectado, liga o LED associado ao pino GPIO 26.
+-Processamento e Armazenamento de Imagens:
+-Desenha um retângulo verde ao redor do rosto na imagem original.
+-Gera um nome de arquivo único com base no carimbo de data/hora.
+-Salva apenas a porção da imagem que contém o rosto detectado como um arquivo JPEG no diretório especificado.
+Espera e Desligamento do LED:
+-Espera 0.5 segundos para garantir que apenas uma imagem seja capturada por detecção.
+-Desliga o LED associado ao pino GPIO 26.
+Exibição da Imagem:
+-Exibe a imagem com os retângulos desenhados em uma janela com o título "Camera".
+Aguarda e Captura Próxima Imagem:
+-Aguarda 300 milissegundos antes de continuar o loop e capturar a próxima imagem.
 
