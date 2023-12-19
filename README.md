@@ -1,6 +1,7 @@
 # SEL0337
 
 Parte 1: TAG
+
 Nesta atividade, foi proposto o desenvolvimento de um sistema de controle de acesso utilizando a tecnologia RFID (Radio-Frequency Identification) em conjunto com uma Raspberry Pi. O objetivo principal era criar um mecanismo que permitisse a gravação de informações em uma Tag RFID, a leitura dessas informações, e a implementação de um programa em Python que utilizasse esses dados para controlar o acesso a um determinado local. O processo iniciou com a montagem do circuito, conforme a figura abaixo que envolveu a conexão do módulo RFID-RC522 à Raspberry Pi. 
 
 ![20231127_152804](https://github.com/LeoCPSyahoo/SEL0337/assets/116130972/319dfda8-c71d-4dda-be9b-c8734c1bc289)
@@ -12,6 +13,7 @@ Para facilitar a comunicação, foi habilitada a interface SPI nas configuraçõ
 ![Photo from Leonardo](https://github.com/LeoCPSyahoo/SEL0337/assets/116130972/159a9391-ea9e-4676-a3aa-4f3956e0fa19)
 
 Parte 2: Câmera
+
 O código implementa um sistema de detecção facial que captura imagens quando rostos são identificados. O LED é utilizado para fornecer feedback visual durante a detecção.
 
 https://github.com/LeoCPSyahoo/SEL0337/assets/116130972/f2b8e95a-d7e9-4120-96e7-161f034e2fe7
