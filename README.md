@@ -7,3 +7,5 @@ Nesta atividade, foi proposto o desenvolvimento de um sistema de controle de ace
 
 Para facilitar a comunicação, foi habilitada a interface SPI nas configurações da Raspberry Pi, e a biblioteca Python do módulo RFID (mfrc522) foi instalada. Com base nos códigos fornecidos, foi desenvolvido um programa em Python que lia o ID da tag e acionava um LED verde com a mensagem "Acesso Liberado" caso a Tag estivesse cadastrada, ou um LED vermelho com a mensagem "Acesso Negado" caso não estivesse cadastrada.
 
+![20231127_152752](https://github.com/LeoCPSyahoo/SEL0337/assets/116130972/1f3f52dc-3195-4389-b9d6-ec174e2e30e4)
+
