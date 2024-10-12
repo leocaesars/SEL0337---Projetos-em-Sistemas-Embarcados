@@ -1,5 +1,7 @@
 # SEL0337
 
+Atividades em dupla desenvolvidas na disciplina SEL0337 cursada no 6º semestre de graduação.
+
 Parte 1: TAG
 
 Nesta atividade, foi proposto o desenvolvimento de um sistema de controle de acesso utilizando a tecnologia RFID (Radio-Frequency Identification) em conjunto com uma Raspberry Pi. O objetivo principal era criar um mecanismo que permitisse a gravação de informações em uma Tag RFID, a leitura dessas informações, e a implementação de um programa em Python que utilizasse esses dados para controlar o acesso a um determinado local. O processo iniciou com a montagem do circuito, conforme a figura abaixo que envolveu a conexão do módulo RFID-RC522 à Raspberry Pi. 
