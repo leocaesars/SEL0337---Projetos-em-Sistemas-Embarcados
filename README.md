@@ -1,6 +1,6 @@
 # SEL0337
 
-Atividades em dupla desenvolvidas na disciplina SEL0337 cursada no 6º semestre de graduação.
+Atividades em dupla para a disciplina SEL0337, cursada no 6º semestre de graduação.
 
 Parte 1: TAG
 
